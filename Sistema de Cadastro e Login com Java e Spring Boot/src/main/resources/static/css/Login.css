@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background: linear-gradient(to right, #171A33, #29336B);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main{
+    background-color: white;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 540px;
+}
+h1{
+    font-size: 36px;
+}
+.h1p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.ph1{
+    font-size: 16px;
+    color: #737385;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+input{
+    display: flex;
+    height: 58px;
+    width: 320px;
+    border-radius: 16px;
+    padding: 0px 18px;
+    font-size: 16px;
+    border: solid 1px #D9DEEB;
+    color: #999EB2;
+    background-color: #FAFAFF;
+}
+input:focus {
+    outline: none;
+}
+button{
+    border: none;
+    border-radius: 18px;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #4F66F5;
+    height: 60px;
+    cursor: pointer;
+}
+.botton{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: #4F66F5;
+    gap: 5px;
+}
+a{
+    color: #4F66F5;
+}
